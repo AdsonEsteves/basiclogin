@@ -3,4 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['dummyimage.com'],
+    domains: ['cdn.discordapp.com'],
+  },
+  nextConfig
+}
