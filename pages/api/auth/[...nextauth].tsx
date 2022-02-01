@@ -55,8 +55,6 @@ export default NextAuth({
             // Add logic here to look up the user from the credentials supplied
             var user = (credentials?.password == results?.password) ? results : null
 
-            console.log("AUTH: " + user)
-
             if (user) {
                 // Any object returned will be saved in `user` property of the JWT
                 return user

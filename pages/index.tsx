@@ -20,8 +20,7 @@ const Home: NextPage = () => {
   if (status === "loading") {
     return <div></div>
   }
-
-  console.log(session?.user)
+  
   const profilepic = session?.user.avatar
   return (
     <div className={styles.container}>
